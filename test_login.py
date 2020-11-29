@@ -2,7 +2,8 @@ from selenium import webdriver
 import unittest
 from login_page import LoginPage
 
-class LoginTest(unittest.TestCase):
+class FailedLoginTest(unittest.TestCase):
+    """В классе проверяются негативные сценарии аутентификации на https://partner-02.st.revoup.ru/"""
 
     site_url = 'https://partner-02.st.revoup.ru'
 
